@@ -1,0 +1,1 @@
+CREATE TABLE CourseTable (courseID NVARCHAR(20), CourseName NVARCHAR(100), DepartmentID INT, TypeID INT 

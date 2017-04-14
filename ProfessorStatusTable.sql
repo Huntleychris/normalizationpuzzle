@@ -1,0 +1,1 @@
+CREATE TABLE ProfessorStatusTable (StatusID INT, StatusDescription NVARCHAR(100))

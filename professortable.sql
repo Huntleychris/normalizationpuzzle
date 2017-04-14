@@ -1,0 +1,1 @@
+CREATE TABLE ProfessorTable (professorID INT, StatusID INT, )
