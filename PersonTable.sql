@@ -1,3 +1,5 @@
+
+DROP TABLE IF EXISTS Person
 CREATE TABLE Person
 (personid    INT IDENTITY(1, 1)
                  NOT NULL
@@ -10,9 +12,3 @@ CREATE TABLE Person
  ProfessorID INT
 );
 
-
-CREATE TABLE ProfessorTable (professorID INT, StatusID INT, )
-
-CREATE TABLE ProfessorStatusTable (StatusID INT, StatusDescription NVARCHAR(100))
-
-CREATE TABLE CourseTable (courseID NVARCHAR(20), CourseName NVARCHAR(100), DepartmentID INT, TypeID INT 

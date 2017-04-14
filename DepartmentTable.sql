@@ -1,0 +1,1 @@
+CREATE TABLE DepartmentTable (DepartmentID INT, DepartmentDescription NVARCHAR(255))
