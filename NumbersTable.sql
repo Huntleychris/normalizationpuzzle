@@ -1,0 +1,10 @@
+SELECT TOP (1048576)
+    n = ISNULL(CONVERT(integer, ROW_NUMBER() OVER (ORDER BY (SELECT NULL))), 0)
+INTO dbo.Numbers
+FROM sys.columns AS c
+CROSS JOIN sys.columns AS c2
+CROSS JOIN sys.columns AS c3;
+
+CREATE UNIQUE CLUSTERED INDEX cuq
+ON dbo.Numbers (n)
+WITH (MAXDOP = 1, SORT_IN_TEMPDB = ON);
