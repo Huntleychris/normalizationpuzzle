@@ -1,1 +1,2 @@
-CREATE TABLE ProfessorTable (professorID INT, StatusID INT, )
+DROP TABLE IF EXISTS ProfessorTable
+CREATE TABLE ProfessorTable (professorID INT NOT NULL PRIMARY KEY, StatusID INT, )
