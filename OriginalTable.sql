@@ -40,17 +40,17 @@ INSERT INTO STUDENTSCHEDULE (studentname, Course, CourseName, Department, School
 VALUES ('Molly Maid','ACCT 225','Cost Accounting','Accounting', 'Business', 'Lecture',  3, 'Winter 2017', 'M,W', '08:00', '10:00', 'Dr. Costa' , 'Professor')
 
 INSERT INTO STUDENTSCHEDULE (studentname, Course, CourseName, Department, School, TypeOfClass, Credits, Semester,  DaysOfWeek, StartTime, EndTime, Teacher, Status)
-VALUES ('Molly Maid','INF 110','Basic Information Systems','Information Systems', 'Business', 'Lecture',  3, 'Winter 2017', 'T,TH', '1:30', '2:30', 'Dr. Bit' , 'Professor')
+VALUES ('Molly Maid','INF 110','Basic Information Systems','Information Systems', 'Business', 'Lecture',  3, 'Winter 2017', 'T,TH', '13:30', '14:30', 'Dr. Bit' , 'Professor')
 
 -- neo
 INSERT INTO STUDENTSCHEDULE (studentname, Course, CourseName, Department, School, TypeOfClass, Credits, Semester,  DaysOfWeek, StartTime, EndTime, Teacher, Status)
 VALUES ('Neo','EECS 410','Virtual Reality','Electrictal Engineering and Computer Science', 'Business', 'Lecture',  4, 'Winter 2017', 'M,W,F', '08:00', '11:00', 'Dr. Smith' , 'Professor')
 
 INSERT INTO STUDENTSCHEDULE (studentname, Course, CourseName, Department, School, TypeOfClass, Credits, Semester,  DaysOfWeek, StartTime, EndTime, Teacher, Status)
-VALUES ('Neo','EECS 411','Virtual Reality','Electrictal Engineering and Computer Science', 'Engineering', 'Lab',  1, 'Winter 2017', 'W', '04:00', '05:00', 'Ms. Rojo' , 'Teaching Assistant')
+VALUES ('Neo','EECS 411','Virtual Reality','Electrictal Engineering and Computer Science', 'Engineering', 'Lab',  1, 'Winter 2017', 'W', '16:00', '17:00', 'Ms. Rojo' , 'Teaching Assistant')
 
 INSERT INTO STUDENTSCHEDULE (studentname, Course, CourseName, Department, School, TypeOfClass, Credits, Semester,  DaysOfWeek, StartTime, EndTime, Teacher, Status)
-VALUES ('Neo','EECS 425','Database Design','Electrictal Engineering and Computer Science', 'Engineering', 'Lecture',  4, 'Winter 2017', 'M,W,F', '01:00', '02:30', 'Dr. Tuple' , 'Professor')
+VALUES ('Neo','EECS 425','Database Design','Electrictal Engineering and Computer Science', 'Engineering', 'Lecture',  4, 'Winter 2017', 'M,W,F', '13:00', '14:30', 'Dr. Tuple' , 'Professor')
 
 INSERT INTO STUDENTSCHEDULE (studentname, Course, CourseName, Department, School, TypeOfClass, Credits, Semester,  DaysOfWeek, StartTime, EndTime, Teacher, Status)
 VALUES ('Neo','CHEM 101','Inorganic Chemistry','Chemistry', 'LS&A', 'Lecture',  3, 'Winter 2017', 'T,TH', '09:00', '10:30', 'Dr. Quirrell' , 'Assistant Professor')
